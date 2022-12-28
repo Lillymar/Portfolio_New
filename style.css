@@ -1,0 +1,192 @@
+body{
+text-align: center;
+background-color:rgb(223, 223, 223);
+}
+
+.navbar{
+background-color:rgb(111, 143, 246);
+}
+
+/* Contact
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.contact a{
+text-decoration: none;
+color:rgb(111, 143, 246);
+}
+
+.contact a:hover{
+  text-decoration: underline;
+}
+
+.nav-link{
+  color: white;
+}
+
+.navbar-brand{
+  color: white;
+}
+
+footer a{
+  color:rgb(111, 143, 246);
+}
+
+footer a:hover{
+  color:rgb(216, 141, 243);
+}
+
+h1{
+  margin-top: 40px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+p{
+    font-family: 'Gantari', sans-serif;
+    font-size: 40px;
+}
+.button{
+    border-radius: 4px;
+    padding: 15px 15px;
+    text-decoration: none;  
+    background: rgb(111, 143, 246);
+    box-shadow: var(--box-shadow);
+    color: white;
+}
+
+.button:hover{
+  color: black;
+}
+
+.primary-link:hover{
+  color: black; 
+}
+
+    .navbar-brand{
+        font-size: 30px;
+    }
+#type{
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker{
+    50%{
+      opacity: 0;
+    }
+  }
+  .container{
+    margin-top: 100px;
+  }
+  .contact-header{
+  font-size: 30px;
+  margin-bottom: 1px;
+}
+
+  .backgroundp {
+    background-image: url('pexels-karolina-grabowska-4046791.jpg');
+  }
+
+  .primary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    background: rgb(111, 143, 246);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  .info {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;  
+  }
+
+  .info div {
+    border: 50px solid #f5f2fe;
+    background: #f5f2fe;
+    border-radius: 4px;
+    font-size: smaller;
+  }
+
+  footer{
+    font-size: 50px;
+    text-indent: 50px;
+  }
+
+  .contact{
+    font-size: 90px;
+    margin-bottom: 5px;
+  }
+
+  .contact-about {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+  .contact a{
+    font-size: 30px; 
+  }
+
+  .contact p{
+    font-size: 25px;
+  }
+
+  @media (max-width: 900px) {
+    h1 {
+      font-size: 40px;
+    }
+
+    p{
+      font-size: 30px;
+  }
+ 
+    footer{
+      font-size: 30px;
+      text-indent: 50px;
+    }
+  
+    .contact a{
+      font-size: 30px;
+      text-transform: lowercase;
+    
+    }
+    .info div {
+      border-radius: 4px;
+      padding: 20px;
+
+    }
+  }
+
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 20px;
+    }
+
+    p{
+      font-size: 20px;
+  }
+ 
+    footer{
+      font-size: 20px;
+      text-indent: 50px;
+    }
+  
+    .contact a{
+      font-size: 20px; 
+    }
+
+    .info .contact{
+      border-radius: 4px;
+      padding: 5px;
+    }
+
+    .button{
+      border-radius: 4px;
+      padding: 10px 10px;
+  }
+
+  .contact i{
+    font-size: 30px;
+  }
+}
